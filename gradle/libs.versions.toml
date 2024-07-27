@@ -1,0 +1,46 @@
+[versions]
+agp = "8.4.1"
+exoplayerCore = "2.19.1"
+exoplayerCoreVersion = "r2.4.0"
+exoplayerUi = "r2.4.0"
+exoplayerUiVersion = "2.18.1"
+googleExoplayerCore = "2.18.1"
+gpuvideoAndroid = "v0.1.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+media3Exoplayer = "1.3.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
+androidx-media3-exoplayer-dash = { module = "androidx.media3:media3-exoplayer-dash", version.ref = "media3Exoplayer" }
+androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3Exoplayer" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayerCoreVersion" }
+exoplayer-core = { module = "com.google.android.exoplayer:exoplayer-core", version.ref = "exoplayerCore" }
+exoplayer-core-v2181 = { module = "com.google.android.exoplayer:exoplayer-core", version.ref = "googleExoplayerCore" }
+exoplayer-core-vr240 = { module = "com.google.android.exoplayer:exoplayer-core", version.ref = "exoplayerCoreVersion" }
+exoplayer-dash = { module = "com.google.android.exoplayer:exoplayer-dash", version.ref = "exoplayerUi" }
+exoplayer-hls = { module = "com.google.android.exoplayer:exoplayer-hls", version.ref = "exoplayerUi" }
+exoplayer-smoothstreaming = { module = "com.google.android.exoplayer:exoplayer-smoothstreaming", version.ref = "exoplayerCoreVersion" }
+exoplayer-ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayerUi" }
+exoplayer-ui-v2181 = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayerUiVersion" }
+gpuvideo-android = { module = "com.github.MasayukiSuda:GPUVideo-android", version.ref = "gpuvideoAndroid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
